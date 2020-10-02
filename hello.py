@@ -46,5 +46,30 @@ num = 6/7
 print(num)
 print(f"{num:.2f}")
 
-name = input("Input your name:")
-print(f"Hello, {name}!")
+#name = input("Input your name:")
+#print(f"Hello, {name}!")
+
+company = "yandex.ru"
+
+if "Яндекс" in company:
+    print("Подстрока ya найдена")
+elif "yandex" in company:
+    print("Подстрока yandex найдена")
+else:
+    print("Подстрока не найдена")
+
+name = "Dmitry"
+for letter in name:
+    print(letter)
+
+sum = 0
+for i in range(101):
+    sum += i
+print(sum)
+
+for i in range(0,11,2):
+    print(i)
+
+
+for i in range(10,-1,-2):
+    print(i)
