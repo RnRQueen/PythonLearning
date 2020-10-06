@@ -58,8 +58,8 @@ elif "yandex" in company:
 else:
     print("Подстрока не найдена")
 
-name = "Dmitry"
-for letter in name:
+name = "dmitry"
+for letter in name.capitalize():
     print(letter)
 
 sum = 0
@@ -67,9 +67,24 @@ for i in range(101):
     sum += i
 print(sum)
 
-for i in range(0,11,2):
+for i in range(0, 11, 2):
     print(i)
 
 
 for i in range(10,-1,-2):
     print(i)
+
+x1, y1 = 0, 0
+x2, y2 = 5, 8
+distance = ((x2-x1)**2 + (y2-y1)**2)**0.5
+print(distance)
+
+n = 0
+while n < 3:
+    if n > 0:
+        continue
+    else:
+        break
+    n += 1
+
+print(n)
